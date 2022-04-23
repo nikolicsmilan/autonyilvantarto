@@ -1,0 +1,30 @@
+.form-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.form-modal .buttons {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  justify-content: flex-end;
+  width: auto;
+  height: 40px;
+  width: 95%;
+  margin-top: 50px;
+}
+
+.form-modal .buttons button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  text-align: center;
+}
+
+.form-modal .control p{
+ /* border:1px solid red;*/
+ color:red;
+}
